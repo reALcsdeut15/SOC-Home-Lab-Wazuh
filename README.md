@@ -15,6 +15,7 @@ The purpose of this deployment is to engineer a functional **Security Operations
 * **Status:** Complete ✅
 * **Telemetry Verification:**
 <img width="1009" height="579" alt="image" src="https://github.com/user-attachments/assets/73259352-121e-4c2d-bfe4-f90c330b8276" />
+
 ### 🪤Day 2: Setting the Log Trap
 * **Task:** Deploy the attacker node and establish virtual network routing connectivity.
 * **Status:** Complete ✅
