@@ -5,7 +5,7 @@ The purpose of this deployment is to engineer a functional **Security Operations
 ## 🛠️ Tooling Stack
 * **Virtualization Engine:** Oracle VirtualBox
 * **SIEM Engine:** Wazuh OVA Appliance v4.14.7
-* Threat Generator:** Kali Linux (x86 architecture)
+* **Threat Generator:** Kali Linux (x86 architecture)
 
 ---
 
