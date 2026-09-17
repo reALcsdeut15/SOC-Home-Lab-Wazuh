@@ -21,3 +21,10 @@ The purpose of this deployment is to engineer a functional **Security Operations
 * **Status:** Complete ✅
 * **Telemetry Verification:**
 <img width="1067" height="753" alt="image" src="https://github.com/user-attachments/assets/b0a6c156-d4e8-44a9-a7e0-79973fef08fe" />
+
+### 🪤Day 3: Simulating the Attack Vector 
+* **Task:** Execute a brute-force attack from Kali Linux and verify SIEM alert generation thresholds.
+* **Status:** Complete ✅
+* **Telemetry Verification:**
+<img width="1048" height="532" alt="image" src="https://github.com/user-attachments/assets/ffcb3c7f-dadf-4177-8558-d92927e435fc" />
+
