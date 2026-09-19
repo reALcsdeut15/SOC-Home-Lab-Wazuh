@@ -38,3 +38,12 @@ The purpose of this deployment is to engineer a functional **Security Operations
 * **Telemetry Verification:**
 <img width="1360" height="766" alt="image" src="https://github.com/user-attachments/assets/59b9942c-bd43-4159-b781-51b1d15dff37" />
 
+### 👀Day 5: Injecting the Monitoring Daemon
+* **Task:** Establish an offline shared-folder bridge to manually deploy and configure Wazuh endpoint agent daemon on the target node.
+* **Status:** Complete ✅
+* **Telemetry Verification:**
+<img width="1359" height="676" alt="image" src="https://github.com/user-attachments/assets/ac7cf235-cd89-45bb-b15f-c9b1c6b9936e" />
+<img width="1355" height="606" alt="image" src="https://github.com/user-attachments/assets/5851b76a-5a35-4643-8935-d5cdd3c3f802" />
+
+
+
