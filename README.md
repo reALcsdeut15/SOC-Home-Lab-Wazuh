@@ -3,7 +3,7 @@
 ## 🎯 Project Objective
 The purpose of this deployment is to engineer a functional **Security Operations Center (SOC) environment** using open-source tools. This environment validates defensive endpoint monitoring controls by simulating cyber attacks and establishing centralized logging and analysis. 
 
-###► **View the complete engineering milestones here:** [Download Full 30-60-90 Day Timeline PDF] (doc_homelab_30_60_90_timeline.pdf)
+► **View the complete engineering milestones here:** [Download Full 30-60-90 Day Timeline PDF] (doc_homelab_30_60_90_timeline.pdf)
 
 ## 🛠️ Tooling Stack
 * **Virtualization Engine:** Oracle VirtualBox
