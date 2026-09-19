@@ -32,3 +32,9 @@ The purpose of this deployment is to engineer a functional **Security Operations
 * **Telemetry Verification:**
 <img width="1048" height="532" alt="image" src="https://github.com/user-attachments/assets/ffcb3c7f-dadf-4177-8558-d92927e435fc" />
 
+### 🖥️Day 4: Provisioning the Target Client Asset
+* **Task:** Deploy an independent Ubuntu Server endpoint node and hardcode permanent network routing layouts.
+* **Status:** Complete ✅
+* **Telemetry Verification:**
+<img width="1360" height="766" alt="image" src="https://github.com/user-attachments/assets/59b9942c-bd43-4159-b781-51b1d15dff37" />
+
