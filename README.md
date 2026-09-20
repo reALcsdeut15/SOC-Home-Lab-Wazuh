@@ -5,7 +5,7 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 ▶ **View the complete engineering milestones here:** [Download Full 30-60-90 Day Timeline PDF](soc_homelab_30_60_90_timeline.pdf)
 
-▶ 📂 Additional Completed Portfolio Assignments **[CompTIA Security+ Audit & Compliance Assessment](https://github.com/realCsdeut15/SOC-Home-Lab-Wazuh/tree/Conduct-A-Security-Audit)** — Complete controls assessment checklist, regulatory compliance evaluation (PCI DSS/GDPR), and remediation report[cite: 4, 5].
+▶ 📂 Additional Completed Portfolio Assignments **[CompTIA Security+ Audit & Compliance Assessment](https://github.com/realCsdeut15/SOC-Home-Lab-Wazuh/tree/Conduct-A-Security-Audit)** — Complete controls assessment checklist, regulatory compliance evaluation (PCI DSS/GDPR), and remediation report.
 
 
 ## 🛠️ Tooling Stack
