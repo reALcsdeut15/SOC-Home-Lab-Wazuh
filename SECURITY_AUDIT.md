@@ -38,3 +38,29 @@ Below is the controls assessment I completed, evaluating Botium Toys' existing s
 |**Fire Detection & Prevention** | Physical | Preventative | Detect fires and protect physical hardware and inventory | **Yes** | 
 ---
 
+## 3. Regulatory Compliance Checklist (Completed Audit Work)
+
+Below is the compliance assessment I completed, determining whether Botium Toys currently adheres to the key regulatory frameworks.
+
+###Payment Card Industry Data Security Standard (PCI DSS)
+* [ ] **Authorized Access Only:** Only authorized users have access to customers' credit card information.
+* [ ] **Secure Storage & Processing:** Credit car information is stored, accepted, processed, and transmitted in a secure environment.
+* [ ] **Data Encryption:** Data encryption procedures are implemented across credit card touchpoints.
+* [ ] **Password Policies:** Secure password management policies are adopted.
+
+### General Data Protection Regulation (GDPR)
+* [ ] **E.U. Data Privacy:** E.U. customers' data is kept private/secured.
+* [x] **72-Hour Breach Notificaton:** A plan is in place to notify E.U. customers within 72 hours of a data breach.
+* [ ] **Data Inventory & Classification:** Data is properly classified and inventoried.
+* [ ] **Privacy Policies:** Privacy policies, procedures, and processes are enforced and documented.
+
+### System and Organization Controls (SOC 1 / SOC 2)
+* [ ] **User Access Policies:** User access policies are formally established.
+* [ ] **Confidentiality:** Sensitive data (PII/SPII) is confidential/private.
+* [ ] **Data Integrity:** Data integrity measures ensure data is consistent, complete, and validated.
+* [x] **Data Availability:** Data is available to authorized individuals when needed.
+---
+
+## 4. Summary & Auditor Recommendations (Completed Audit Work)
+
+Based on the completed controls and compliance assessment, the following recommendations were formulated to reduce risk exposureand improve Botium Toys' security posture. 
