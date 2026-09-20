@@ -64,3 +64,7 @@ Below is the compliance assessment I completed, determining whether Botium Toys 
 ## 4. Summary & Auditor Recommendations (Completed Audit Work)
 
 Based on the completed controls and compliance assessment, the following recommendations were formulated to reduce risk exposureand improve Botium Toys' security posture. 
+1. **Address Critical Technical Safeguards:** Prioritize the implementation of an Instrusion Detection System (IDS) and deploy encryption for stored and transmitted payment card data to satisfy PCI DSS requirements.
+2. **Formalize Administrative Policies:** Establish strict password strength policies, user access control policies and separation of duties to limit access to sensitive systems.
+3. **Establish Data Governance:** Implement formal data classification and privacy procedures for sensitive customer information to address outstanding GDPR and SOC requirements.
+
