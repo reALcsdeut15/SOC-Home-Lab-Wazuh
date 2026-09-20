@@ -28,13 +28,13 @@ Below is the controls assessment I completed, evaluating Botium Toys' existing s
 |**Separation of Duties** | Administrative | Prevantative | Reduce risk of single points of failure and internal fraud | **No** | 
 |**Firewall** | Technical | Prevantative | Filter unwated or malicious traffic from entering the network | **Yes** | 
 |**Intrusion Detection System (IDS)** | Technical | Detective | Detect and prevent anomalous traffic matching attack signatures | **No** | 
-|**Backups** | Technical | Corrective | Restore/recover systems and data following an incident | **Yes** | 
+|**Backups** | Technical | Corrective | Restore/recover systems and data following an incident | **No** | 
 |**Antivirus (AV) Software** | Technical | Corrective | Detect and quarantine known threats | **Yes** | 
 |**Manual Monitoring / Legacy Systems** | Technical | Preventative | Identify and manage threats/vulnerabilities on legacy systems | **No** | 
 |**Encryption** | Technical | Deterrent | Provide confidentiality for sensitive stored/transmitted data | **No** | 
 |**Password Management Systems** | Technical | Preventative | Reduce password fatigue and unsafe password practices | **No** | 
 |**Locks (Offices, Storefront, Warehouse)** | Physical | Preventative | Prevent unauthorized physical access to physical assets | **Yes** | 
-|**CCTV Surveillance** | Physical | Detective | Monitor physical perimeters and assist post-incident investigations | **No** | 
+|**CCTV Surveillance** | Physical | Detective | Monitor physical perimeters and assist post-incident investigations | **Yes** | 
 |**Fire Detection & Prevention** | Physical | Preventative | Detect fires and protect physical hardware and inventory | **Yes** | 
 ---
 
