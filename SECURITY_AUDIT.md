@@ -1,8 +1,9 @@
 # Security Audit Assessment & Compliance Review: Botium Toys
-## Project Overview
+
+### Project Overview
 This project represents a completed **IT Security Audit Assessment** conducted as part of my cybersecurity certification training and preparation for the CompTIA Security+ certification.
 **Scenario Context (Provided):** Background information on Botium Toys' assests, IT scope, and business goals.
-**Completed Audit Work (My Contribution:** Evaluation and completion of the Controls Assessment Checklis, Regulatory Compliance Checklist, and Auditor Recommendations. 
+**Completed Audit Work (My Contribution:** Evaluation and completion of the Controls Assessment Checklist, Regulatory Compliance Checklist, and Auditor Recommendations. 
 ---
 ## 1. Scenario Context & Background (Provided Data)
 
