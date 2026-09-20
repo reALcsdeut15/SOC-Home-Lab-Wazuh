@@ -29,7 +29,7 @@ The purpose of this deployment is to engineer a functional **Security Operations
 ### 🪤Day 3: Simulating the Attack Vector 
 * **Task:** Execute a brute-force attack from Kali Linux and verify SIEM alert generation thresholds.
 * **Status:** Complete ✅
-* **Telemetry Verification:**
+* **Telemetry Verification
 <img width="1048" height="532" alt="image" src="https://github.com/user-attachments/assets/ffcb3c7f-dadf-4177-8558-d92927e435fc" />
 
 ### 🖥️Day 4: Provisioning the Target Client Asset
@@ -44,6 +44,14 @@ The purpose of this deployment is to engineer a functional **Security Operations
 * **Telemetry Verification:**
 <img width="1359" height="676" alt="image" src="https://github.com/user-attachments/assets/ac7cf235-cd89-45bb-b15f-c9b1c6b9936e" />
 <img width="1355" height="606" alt="image" src="https://github.com/user-attachments/assets/5851b76a-5a35-4643-8935-d5cdd3c3f802" />
+
+### ⚔️Day 6: Threat Simulation & SIEM Alert Generation
+* **Task:** Execute an automated SSH brute-force attack from the Kali Attacker node using Hydra, and analyze the ingested high-severity alerts on the Wazuh Dashboard.
+* **Status:** Complete ✅
+* **SIEM Telemetry Verification:**
+<img width="676" height="634" alt="image" src="https://github.com/user-attachments/assets/4920f428-d563-47c1-bfcf-4eb9f9f3504c" />
+<img width="1354" height="671" alt="image" src="https://github.com/user-attachments/assets/3c27e5c6-28f6-4f99-9fcf-ea8b647f6d9a" />
+
 
 
 
