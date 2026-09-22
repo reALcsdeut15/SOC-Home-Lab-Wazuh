@@ -53,5 +53,13 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1354" height="671" alt="image" src="https://github.com/user-attachments/assets/3c27e5c6-28f6-4f99-9fcf-ea8b647f6d9a" />
 
 
+### 🧠Day 7: Custom Detection Engineering & MITRE Mapping
+* **Task:** Code custom correlation logic inside 'local_rules.xml' to detect post-brute-force successful logins and map the traffic telemetry to the MITRE ATT&CK framework matrix.
+* **Status:** Complete ✅
+* SIEM Alert Telemetry Verification:**
+<img width="620" height="531" alt="image" src="https://github.com/user-attachments/assets/4eb7bc66-b505-48a0-8950-81271ba05271" />
+<img width="1293" height="559" alt="image" src="https://github.com/user-attachments/assets/147b09b4-6346-49b6-a49d-ac94f0743ad1" />
+
+
 
 
