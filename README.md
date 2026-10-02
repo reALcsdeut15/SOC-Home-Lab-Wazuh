@@ -61,5 +61,13 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1293" height="559" alt="image" src="https://github.com/user-attachments/assets/147b09b4-6346-49b6-a49d-ac94f0743ad1" />
 
 
+### 📁Day 8: Native Windows Endpoint Sensor Integration
+* **Task:** Deploy the official enterprise Wazuh monitoring agent package directly onto a Windows host laptop architecture layer, and establish encrypted telemetry routing tunnels over the host-only sandbox wire interface (192.168.56.101).
+* **Status:** Complete ✅
+* **SIEM Telemetry Verification:**
+<img width="1347" height="593" alt="image" src="https://github.com/user-attachments/assets/a677e7b8-7503-4000-b329-b27e36b4601c" />
+<img width="1331" height="659" alt="image" src="https://github.com/user-attachments/assets/88704bf8-c92c-4a60-91d3-c771d259f67b" />
+
+
 
 
