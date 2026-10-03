@@ -69,7 +69,7 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1331" height="659" alt="image" src="https://github.com/user-attachments/assets/88704bf8-c92c-4a60-91d3-c771d259f67b" />
 
 
-## 📂Day 9: Active Network Brute-Force Simulation & SIEM Detection Tracking
+### 📂Day 9: Active Network Brute-Force Simulation & SIEM Detection Tracking
 
 ### Red Team: Tactical Attack Execution
 * Utilized **Nmap** network reconnaissance sweeps to discover active nodes plugged into the private host-only sandbox highway (`192.168.56.0/24`).
