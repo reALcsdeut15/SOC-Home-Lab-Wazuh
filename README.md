@@ -69,5 +69,21 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1331" height="659" alt="image" src="https://github.com/user-attachments/assets/88704bf8-c92c-4a60-91d3-c771d259f67b" />
 
 
+## 📂Day 9: Active Network Brute-Force Simulation & SIEM Detection Tracking
+
+### Red Team: Tactical Attack Execution
+* Utilized **Nmap** network reconnaissance sweeps to discover active nodes plugged into the private host-only sandbox highway (`192.168.56.0/24`).
+* Developed a custom targeted dictionary list containing administrative parameters.
+* Deployed **Hydra**, a high-speed network authentication weapon framework, to launch a parallel automated dictionary brute-force attack targeting the SSH daemon interface service line of the `Target-Ubuntu-Client` node (`192.168.56.120`).
+
+<img width="1206" height="359" alt="image" src="https://github.com/user-attachments/assets/a5ebbabe-c9fa-40e7-9b6f-4a4f099ae4eb" />
+
+### Blue Team: Passive Threat Logging & Security Analysis
+* Monitored the host-only sandbox highway natively using the **Wazuh Agent** telemetry pipeline.
+* Captured high-velocity authentication failures natively inside the endpoint system event directories.
+* Aggregated and shipped the encrypted traffic logs across the wire interface straight into the central **Wazuh SIEM Brain** (192.168.56.101).
+* Generated and verified high-severity visual log alerts (Level 10+) on the master security overview dashboard cockpit.
+
+<img width="1345" height="670" alt="image" src="https://github.com/user-attachments/assets/ff7c50ac-ee58-418a-9b36-27a0a451c186" />
 
 
