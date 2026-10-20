@@ -98,3 +98,13 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="845" height="681" alt="image" src="https://github.com/user-attachments/assets/7d66b661-b528-41bb-8b4c-2e7d3ef4bc03" />
 
 
+### 📂 Day 11: File Integrity Monitoring (FIM) Real-Time Watch Policy Implementation
+* **Task:** Transition to Phase 2 operations to configure proactive host-system hardening parameters and deploy real-time kernel-level directory tracking watches.
+* **Engineering & Detection Metrics:**
+  * Modified the core XML agent configuration matrices (`ossec.conf`) to inject customized real-time tracking parameters (`realtime="yes"`, `report_changes="yes").
+  * Established an aggressive, dedicated data watch hook on the highly restricted root-level directory container path (`/root/top_secret`).
+  * Executed a malicious file drop simulation generating an un-authorized credential leakage artifact text entry file (`leak.txt`).
+  * Validated successful ingestion metrics inside the central **Global Query Ingestion Deck (Discover)**, isolating the structural threat footprint transmitted by the `ubuntuvictim` endpoint node interface (192.168.56.120).
+ * **Status:** Complete ✅
+
+<img width="1347" height="670" alt="image" src="https://github.com/user-attachments/assets/137063ed-3330-4aa1-85bc-d51f18dfcf5f" />
