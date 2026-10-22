@@ -121,3 +121,13 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="636" height="768" alt="image" src="https://github.com/user-attachments/assets/a76b3a81-6312-4085-903e-64e993ad0de6" />
 
 
+### 📂 Day 13: Live File-Tampering Simulation & Cryptographic Text Delta Extraction
+* **Task:** Execute an active insider-threat simulation inside a guarded filesystem container to text real-time cryptographic text difference mapping (diffs).
+* **Forensic Auditing & Detection Metrics:**
+  * Appended a high-risk text line signature (`EXFILTRATION_TARGET=192.168.56.102`) into the restricted text document layer (`/root/top_secret/leak.txt`).
+  * Validated that the underlying kernel-level file auditing engine successfully tracked the content alteration event natively.
+  * Isolated the tracking payload inside the central SIEM console, verifying that the advanced **`syscheck.diff`** data field explicitly exposed the exact added string lines using cryptographic text delta map identifiers (`+`).
+* **Status:** Phase 2 File Integrity Auditing Milestone Complete ✅
+  
+<img width="1282" height="630" alt="image" src="https://github.com/user-attachments/assets/16952bc5-c730-4238-98d5-186fbffb6992" />
+
