@@ -108,3 +108,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
  * **Status:** Complete ✅
 
 <img width="1347" height="670" alt="image" src="https://github.com/user-attachments/assets/137063ed-3330-4aa1-85bc-d51f18dfcf5f" />
+
+
+### 📁 Day 12: Advanced Core Ingestion Tuning & Capability Verification
+* **Task:** Conduct optimization auditing inside the internal system options matrix to verify high-capacity forensic file digestion parameters.
+* **Engineering Review & Validation:**
+  * Audited the core system configuration layer definitions (`internal_options.conf`) to inspect the engines's text delta comparison cap limitations.
+  * Verified that the core ingestion parameter `syscheck.file_max_size` is target-locked at its optimized performance threshold of **1024 MB (1 GB)**.
+  * Validated that the underlying kernel hooks possess wide-open capability to compute cryptographic text difference mapping (diffs) across heavily monitored system folders.
+* **Status:** Core Tuning & Capability Verification Complete ✅
+
+<img width="636" height="768" alt="image" src="https://github.com/user-attachments/assets/a76b3a81-6312-4085-903e-64e993ad0de6" />
+
+
