@@ -131,3 +131,17 @@ The purpose of this deployment is to engineer a functional **Security Operations
   
 <img width="1282" height="630" alt="image" src="https://github.com/user-attachments/assets/16952bc5-c730-4238-98d5-186fbffb6992" />
 
+
+### 📁 Day 14: Local Firewall Hardening & Network Access Control Baseline 
+* **Task:** Implement host-based network segmentation parameters on the target endpoint node using the native Linux firewall utility.
+* **Engineering Hardening Metrics:**
+  * Audited the native firewall subsystem (**UFW**) to identify open baseline entry vectors.
+  * Hardcoded explicit rule matrices to permit traffic exclusively from the centralized SIEM core manager (`192.168.56.101`) and the tactical attacker framework (`192.168.56.102`)
+  * Explicitly locked down the main transport entry channel (**Port 22/TCP**) to enforce strict administrative access routes.
+  * Triggered system-wide perimeter activation, verifying that the default policy automatically drops unauthorized incoming communication attempts on startup.
+* **Status:** Local Firewall Baseline Complete ✅
+
+<img width="544" height="139" alt="image" src="https://github.com/user-attachments/assets/67343acc-6d92-4284-b691-d7d046f29e3a" />
+
+<img width="789" height="768" alt="image" src="https://github.com/user-attachments/assets/ddceca82-c45b-429f-9435-afc59a6a5f4c" />
+
