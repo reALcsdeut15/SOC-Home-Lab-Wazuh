@@ -145,3 +145,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 <img width="789" height="768" alt="image" src="https://github.com/user-attachments/assets/ddceca82-c45b-429f-9435-afc59a6a5f4c" />
 
+
+### 📂 Day 15: Advanced Windows Auditing Policies & Process Tracking Activation
+* **Task:** Configure host-system kernel logging enhancements to capture granular background application telemetry.
+* **Engineering Review & Validation:**
+  * Navigated the Advanced Audit Policy Configuration console (`secpol.msc`) to isolate host tracking vectors.
+  * Activated explicit **Success** and **Failure** security auditing matrices under the **Detailed Tracking** sub-category.
+  * Enabled system-wide tracking for **Audit Process Creation (Event ID 4688)** to ingest real-time background application execution chains.
+  * Executed an administrative group policy force-refresh (`gpupdate /force`) to cleanly mount the updated security schemas into active workstation memory.
+* **Status:** Advanced Windows Audit Baseline Complete ✅
+
+<img width="911" height="636" alt="image" src="https://github.com/user-attachments/assets/4253645b-c578-44e8-8156-5ec6d27c0718" />
+
+<img width="612" height="512" alt="image" src="https://github.com/user-attachments/assets/cdac9317-b33d-4ff6-8824-26d7c51edde6" />
