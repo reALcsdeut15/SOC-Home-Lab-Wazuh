@@ -195,6 +195,6 @@ The purpose of this deployment is to engineer a functional **Security Operations
   * Executed a live manager service compilation cycle, validating structural integrity and establishing an active detection baseline.
  * **Status:** Custom SIEM Logic Complete & Active Detection Profile Established ✅
 
-<img width="1144" height="629" alt="image" src="https://github.com/user-attachments/assets/8e7fad4a-f321-4f36-bd18-a11ed87ad960" />
+<img width="1145" height="630" alt="image" src="https://github.com/user-attachments/assets/d6e2fba6-411a-4ab0-bcc1-a520a7fd9249" />
 
 
