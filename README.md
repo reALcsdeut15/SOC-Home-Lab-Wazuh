@@ -198,3 +198,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1145" height="630" alt="image" src="https://github.com/user-attachments/assets/d6e2fba6-411a-4ab0-bcc1-a520a7fd9249" />
 
 
+### 📂 Day 19: Custom Rule Validation & High-Severity Threat Triggering
+* **Task:** Validate custom SIEM rule logic constraints by executing a simulated local privilege escalation attack chain.
+* **Engineering Review & Forensic Analysis:**
+  * Initialized an administrative local shell execution loop (`cmd.exe`) on the workstation layer to trigger host process parameters.
+  * Verified active endpoint log forwarding loops, harvesting over 30 distinct real-time hits matching custom classification parameters.
+  * Audited the centralized SIEM telemetry panels using explicit filtering queries (`rule.id: "100002"`).
+  * Validated that the correlation engine successfully intercepted the raw event data, automatically escalating the behavior into a **High-Security Level 12 Alarm Event**.
+ * **Status:** Threat Detection Rule Validated & Operational ✅
+
+<img width="1138" height="634" alt="image" src="https://github.com/user-attachments/assets/c9040f71-f412-42bf-86f0-e63bebb73fe6" />
+
+<img width="1143" height="637" alt="image" src="https://github.com/user-attachments/assets/f2971de6-1b34-4661-a925-41b62ec40b93" />
+
