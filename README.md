@@ -158,3 +158,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="911" height="636" alt="image" src="https://github.com/user-attachments/assets/4253645b-c578-44e8-8156-5ec6d27c0718" />
 
 <img width="612" height="512" alt="image" src="https://github.com/user-attachments/assets/cdac9317-b33d-4ff6-8824-26d7c51edde6" />
+
+### 📁 Day 16: Custom Wazuh Agent Telemetry Routing & XML Hooking
+* **Task:** Modify host-level endpoint detection parameters to route advanced kernel event channels over the virtual switch infrastructure.
+* **Engineering Review & Validation:**
+  * Executed a workspace sandbox migration to bypass host-directory folder permission protections on `ossec.conf`.
+  * Injected a targeted XML data collection block configured explicitly for the **Security** event channel.
+  * Hardcoded an explicit query filter (`Event[System[EventID=4688]]`) to selectively harvest process creation event streams while minimizing telemetry noise.
+  * Recycled the background **Wazuh Agent** system service daemon, verifying a clean initialization and stead runtime state.
+ * **Status:** Telemetry Routing Complete & Active Channel Established ✅
+
+<img width="948" height="655" alt="image" src="https://github.com/user-attachments/assets/3779a182-2138-4939-9175-746bc1829c70" />
+
+
