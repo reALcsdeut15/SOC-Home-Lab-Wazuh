@@ -171,3 +171,15 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="948" height="655" alt="image" src="https://github.com/user-attachments/assets/3779a182-2138-4939-9175-746bc1829c70" />
 
 
+### 📂 Day 17: Live Attack Simulation & SIEM Detection Validation
+* **Task:** Execute tactical exploitation simulations from the Kali Linux testing suite and validate real-time ingestion pipelines.
+* **Engineering Review & Forensic Analysis:**
+  * Initialized the centralized security manager core and booted the **Kali Linux Attack Cockpit** onto the host network range.
+  * Executed live network and application-layer discovery simulations targeting the local host environment boundaries.
+  * Audited the **Wazuh Discover Cockpit** using targeted indexing queries (`data.win.system.eventID: "4688"`).
+  * Validated complete telemetry ingestion loops, verifying that the SIEM successfully parsed kernel-level process creation event blocks generated during the attack loop.
+ * **Status:** Attack Simulation & Pipeline Validation Successful ✅
+
+<img width="1191" height="735" alt="image" src="https://github.com/user-attachments/assets/a146b1dd-6c72-4eb4-8b85-4647ff0c32c1" />
+
+
