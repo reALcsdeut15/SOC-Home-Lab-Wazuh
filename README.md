@@ -185,3 +185,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="929" height="609" alt="image" src="https://github.com/user-attachments/assets/a30dd330-09e3-47a7-b65b-786ec65183f1" />
 
 
+### 📁 Day 18: Custom SIEM Detection Rules & XML Correlation Logic
+* **Task:** Engineer a custom correlation rule matrix inside the centralized SIEM manager to escalate raw event streams into high-severity security.
+* **Engineering Design & Logic Controls:**
+  * Opened the master rule configuration definitions panel (`local_rules.xml`) within the centralized SIEM manager environment.
+  * Authored a custom correlation block (`rule id="10002"`) assigning a **High-Severity Tier (Level 12)** to flag critical workstation activities.
+  * Built nested conditional filters utilizing regular expression (Regex) pattern matchers (`cmd.exe|powershell.exe`) targeted directly at incoming **Windows Event ID 4688** (Process Creation) logs.
+  * Appended standardized industry tags mapped straight to the **MITRE ATT&CK Framework (T1059.001)** for native alignment with corporate threat matrices.
+  * Executed a live manager service compilation cycle, validating structural integrity and establishing an active detection baseline.
+ * **Status:** Custom SIEM Logic Complete & Active Detection Profile Established ✅
+
+<img width="1144" height="629" alt="image" src="https://github.com/user-attachments/assets/8e7fad4a-f321-4f36-bd18-a11ed87ad960" />
+
+
