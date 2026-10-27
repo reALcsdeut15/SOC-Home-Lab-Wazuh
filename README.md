@@ -182,4 +182,6 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 <img width="1191" height="735" alt="image" src="https://github.com/user-attachments/assets/a146b1dd-6c72-4eb4-8b85-4647ff0c32c1" />
 
+<img width="929" height="609" alt="image" src="https://github.com/user-attachments/assets/a30dd330-09e3-47a7-b65b-786ec65183f1" />
+
 
