@@ -211,3 +211,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 <img width="1143" height="637" alt="image" src="https://github.com/user-attachments/assets/f2971de6-1b34-4661-a925-41b62ec40b93" />
 
+
+### 📁 Day 20: Advanced Endpoint Instrumentation & Microsoft Sysmon Deployment
+* **Task:** Deploy low-level kernel auditing engines on the host endpoint to eliminate advanced structural logging blind spots.
+* **Engineering Review & Forensic Blueprint:**
+  * Provisioned the official **Microsoft Sysmon (System Monitor)** low-level kernel driver framework directly onto the workstation architecture.
+  * Authored a customized XML configuration template targeting high-fidelity data collection parameters across **Event ID 1** (Granular Process Creation with Hash Captures) and **Event 3** (Network Socket Connections).
+  * Resolved nested XML tag validation constraints natively within the system root directory schemas.
+  * Successfully initialized the `SysmonDrv` kernel filter layer and engaged the background system service daemon.
+  * Reclaimed local hardware storage blocks by purging unneeded offline asset virtual disk drives.
+ * **Status:** Advanced Instrumentation Complete & Structural Phase 2 Finalized ✅
+
+<img width="1126" height="360" alt="image" src="https://github.com/user-attachments/assets/a26d9560-e689-4868-aae1-c983ecac0507" />
+
