@@ -238,3 +238,18 @@ The purpose of this deployment is to engineer a functional **Security Operations
 <img width="1254" height="653" alt="image" src="https://github.com/user-attachments/assets/4b5ac539-a754-4956-92eb-4eecce0d66c4" />
 
 <img width="977" height="531" alt="image" src="https://github.com/user-attachments/assets/84110cb7-b98c-496b-81cc-f1bbe05dd3ca" />
+
+
+### 📁 Day 22: Advanced Sysmon Rule Engineering & Behavioral Correlation
+* **Task:** Engineer a custom correlation ruleset inside the centralized SIEM manager to parse Sysmon streams and isolate post-exploitation tactics.
+* **Engineering Design & Analytics Architecture:**
+  * Opened the master rule configuration definitions panel (`local_rules.xml`) within the centralized SIEM manager workspace.
+  * Authored an advanced behavioral correlation block (`rule id="100003"`) assigning a **High-Severity Tier (Level 12)** to isolate high-fidelity threat markers.
+  * Configured structural logic filters (`if_sid>61600</if_sid>`) to hook natively into the incoming Microsoft Sysmon data highway.
+  * Built nested regular expression (Regex) pattern matches (`whoami.exe|net.exe|ipconfig.exe`) targeted directly at the `win.eventdata.image` field to detect host footprinting loops.
+  * Standardized data tracking parameters by explicitly mapping the profile straight to the **MITRE ATT&CK Matrix (T1082 - System Information Discovery)**.
+  * Executed a live manager service compilation cycle, validating syntax and establishing an active behavioral detection baseline.
+ * **Status:** Advanced Sysmon Threat Logic Active & Operational ✅
+
+<img width="1247" height="652" alt="image" src="https://github.com/user-attachments/assets/81a5947d-f8ff-45fd-b31c-4d22fc5ac453" />
+
