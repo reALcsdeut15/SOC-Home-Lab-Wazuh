@@ -253,3 +253,16 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 <img width="1247" height="652" alt="image" src="https://github.com/user-attachments/assets/81a5947d-f8ff-45fd-b31c-4d22fc5ac453" />
 
+
+### 📂 Day 23: Live Behavior Validation & Threat Detection Correlation Pipeline
+* **Task:** Validate custom security correlation rulesets natively inside the centralized SIEM dashboard using live post-exploitation footprinting attack simulations.
+* **Engineering Review & Forensic Triage:**
+  * Executed live endpoint reconnaissance commands (`whoami`, `ipconfig`, `net user`) inside an administrative shell on the target workstation.
+  * Conducted deep visual field auditing on un-correlated background logs to identify variations in the native Windows Event Channel decoder schema.
+  * Corrected correlation boundaries by mapping filters directly to the verified `win.eventdata.newProcessName` field layout.
+  * Recompiled the core custom rule file (`local_rules.xml`) and successfully synchronized the centralized engine manager.
+  * Validated live data capture loops, escalating raw security events into active, high-visibility Level-12 behavioral alert.
+* **Status:** Threat Detection Pipeline Validated & Phase 3 Core Operational ✅
+
+<img width="1308" height="672" alt="image" src="https://github.com/user-attachments/assets/c72447fa-5b9d-4c52-bc42-6e39e87dd2f6" />
+
