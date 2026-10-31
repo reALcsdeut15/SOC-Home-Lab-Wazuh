@@ -224,3 +224,17 @@ The purpose of this deployment is to engineer a functional **Security Operations
 
 <img width="1126" height="360" alt="image" src="https://github.com/user-attachments/assets/a26d9560-e689-4868-aae1-c983ecac0507" />
 
+
+### 📂 Day 21: Forensic Telemetry Ingestion & Sysmon Pipeline Validation
+* **Task:** Route advanced Windows kernel logging channels into the centralized SIEM array and validate parsed data schemas.
+* **Engineering Review & Operational Troubleshooting:**
+  * Audited the local agent daemon runtime logs (`ossec.log`) using native administrative shortcuts to diagnose endpoint mapping disconnects.
+  * Corrected telemetry gaps by manually modifying the active agent configuration file (`ossec.conf`) via root system arrays.
+  * Injected an independent event collection block mapping the operational channel: `Microsoft-Windows-Sysmon/Operational`.
+  * Recycled the background data collector engine (`WazuhSvc`) and synchronized the centralized manager core.
+  * Successfully verified data intake loops inside the SOC cockpit, parsing over 20 real-time high-fidelity forensic data records.
+ * **Status:** Telemetry Routing Complete & Phase 3 Baseline Active ✅
+
+<img width="1254" height="653" alt="image" src="https://github.com/user-attachments/assets/4b5ac539-a754-4956-92eb-4eecce0d66c4" />
+
+<img width="977" height="531" alt="image" src="https://github.com/user-attachments/assets/84110cb7-b98c-496b-81cc-f1bbe05dd3ca" />
