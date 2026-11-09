@@ -39,80 +39,82 @@ to detect them.
 * **Telemetry Verification
 <img width="1048" height="532" alt="image" src="https://github.com/user-attachments/assets/ffcb3c7f-dadf-4177-8558-d92927e435fc" />
 
-### 🖥️Day 4: Provisioning the Target Client Asset
-* **Task:** Deploy an independent Ubuntu Server endpoint node and hardcode permanent network routing layouts.
-* **Status:** Complete ✅
+### 🖥️ Day 4: Deploying the Ubuntu Target VM
+- **Task:** Deployed an Ubuntu Server VM and set a static IP address so it keeps the same address after reboots.
+- **Status:** Complete ✅
+- **Verification:**
 * **Telemetry Verification:**
 <img width="1360" height="766" alt="image" src="https://github.com/user-attachments/assets/59b9942c-bd43-4159-b781-51b1d15dff37" />
 
-### 👀Day 5: Injecting the Monitoring Daemon
-* **Task:** Establish an offline shared-folder bridge to manually deploy and configure Wazuh endpoint agent daemon on the target node.
-* **Status:** Complete ✅
+### 👀Day 5: Installing the Wazuh Agent on Ubuntu
+- **Task:** Used a VirtualBox shared folder to move the Wazuh agent package onto the Ubuntu VM, since it had no internet access. Installed the agent and connected it to the Wazuh server.
+- **Status:** Complete ✅
+- **Verification:**
 * **Telemetry Verification:**
 <img width="1359" height="676" alt="image" src="https://github.com/user-attachments/assets/ac7cf235-cd89-45bb-b15f-c9b1c6b9936e" />
 <img width="1355" height="606" alt="image" src="https://github.com/user-attachments/assets/5851b76a-5a35-4643-8935-d5cdd3c3f802" />
 
-### ⚔️Day 6: Threat Simulation & SIEM Alert Generation
-* **Task:** Execute an automated SSH brute-force attack from the Kali Attacker node using Hydra, and analyze the ingested high-severity alerts on the Wazuh Dashboard.
-* **Status:** Complete ✅
+### ⚔️Day 6: SSH Brute-Force with Hydra
+- **Task:** Used Hydra on Kali to brute force SSH on the Ubuntu VM, then reviewed the high-severity alerts in the Wazuh dashboard.
+- **Status:** Complete ✅
+- **Verification:**
 * **SIEM Telemetry Verification:**
 <img width="676" height="634" alt="image" src="https://github.com/user-attachments/assets/4920f428-d563-47c1-bfcf-4eb9f9f3504c" />
 <img width="1354" height="671" alt="image" src="https://github.com/user-attachments/assets/3c27e5c6-28f6-4f99-9fcf-ea8b647f6d9a" />
 
 
-### 🧠Day 7: Custom Detection Engineering & MITRE Mapping
-* **Task:** Code custom correlation logic inside 'local_rules.xml' to detect post-brute-force successful logins and map the traffic telemetry to the MITRE ATT&CK framework matrix.
-* **Status:** Complete ✅
+### 🧠Day 7: Custom Rule for Successful Login After Brute Force
+- **Task:** Wrote a custom rule in `local_rules.xml` that alerts when a successful login follows repeated failures. Mapped it to MITRE ATT&CK.
+- **Status:** Complete ✅
+- **Verification:**
 * SIEM Alert Telemetry Verification:**
 <img width="620" height="531" alt="image" src="https://github.com/user-attachments/assets/4eb7bc66-b505-48a0-8950-81271ba05271" />
 <img width="1293" height="559" alt="image" src="https://github.com/user-attachments/assets/147b09b4-6346-49b6-a49d-ac94f0743ad1" />
 
 
-### 📁Day 8: Native Windows Endpoint Sensor Integration
-* **Task:** Deploy the official enterprise Wazuh monitoring agent package directly onto a Windows host laptop architecture layer, and establish encrypted telemetry routing tunnels over the host-only sandbox wire interface (192.168.56.101).
-* **Status:** Complete ✅
+### 📁Day 8: Wazuh Agent on a Windows Host
+- **Task:** Installed the Wazuh agent on my Windows laptop and connected it to the Wazuh server at 192.168.56.101 over the host-only network.
+- **Status:** Complete ✅
+- **Verification:**
 * **SIEM Telemetry Verification:**
 <img width="1347" height="593" alt="image" src="https://github.com/user-attachments/assets/a677e7b8-7503-4000-b329-b27e36b4601c" />
 <img width="1331" height="659" alt="image" src="https://github.com/user-attachments/assets/88704bf8-c92c-4a60-91d3-c771d259f67b" />
 
 
-### 📂Day 9: Active Network Brute-Force Simulation & SIEM Detection Tracking
+### 📂Day 9: Network Scan and Brute-Force Detection
 
-### Red Team: Tactical Attack Execution
-* Utilized **Nmap** network reconnaissance sweeps to discover active nodes plugged into the private host-only sandbox highway (`192.168.56.0/24`).
-* Developed a custom targeted dictionary list containing administrative parameters.
-* Deployed **Hydra**, a high-speed network authentication weapon framework, to launch a parallel automated dictionary brute-force attack targeting the SSH daemon interface service line of the `Target-Ubuntu-Client` node (`192.168.56.120`).
+**Attack**
+- Used Nmap to find active hosts on the host-only network (`192.168.56.0/24`).
+- Built a small custom password list.
+- Used Hydra to brute force SSH on the Ubuntu target (`192.168.56.120`).
+
+**Detection**
+- The Wazuh agent on Ubuntu collected the failed login events.
+- The agent sent them to the Wazuh server (`192.168.56.101`).
+- Confirmed Level 10+ alerts on the dashboard.
 
 <img width="1206" height="359" alt="image" src="https://github.com/user-attachments/assets/a5ebbabe-c9fa-40e7-9b6f-4a4f099ae4eb" />
-
-### Blue Team: Passive Threat Logging & Security Analysis
-* Monitored the host-only sandbox highway natively using the **Wazuh Agent** telemetry pipeline.
-* Captured high-velocity authentication failures natively inside the endpoint system event directories.
-* Aggregated and shipped the encrypted traffic logs across the wire interface straight into the central **Wazuh SIEM Brain** (192.168.56.101).
-* Generated and verified high-severity visual log alerts (Level 10+) on the master security overview dashboard cockpit.
 
 <img width="1345" height="670" alt="image" src="https://github.com/user-attachments/assets/ff7c50ac-ee58-418a-9b36-27a0a451c186" />
 
 
-### 📁Day 10: SIEM Telemetry Auditing & Foundational Visibility Verification
-* **Task:** Conduct comprehensive forensic log analysis inside the centralized security operations console to audit and isolate real-time threat telemetry parameters generated by tactical attack simulations.
-* **Analysis & Verification Metrics:**
-  * Successfully parsed and queried historical event data blocks over an absolute 24-hour search window filter.
-  * Isolated **181 unique hits** of structural system telemetry tracking events transmitted over the private host-only virtual highway network.
-  * Verified persistent end-to-end visibility across the unified asset directory indexers, confirming real-time telemetry streaming ingestion from both the centralized security core manager (`wazuh-server`) and the native physical workstation node (`Glory2Glory`).
-* **Status:** Phase 1 Core Engineering & Foundational Visibility Complete ✅
+### 📁Day 10: Log Review and Agent Visibility Check
+- **Task:** Reviewed 24 hours of events in Wazuh Discover to confirm logging from my attack tests.
+- **Results:**
+  - Found 181 events from the test activity.
+  - Confirmed both `wazuh-server` and my Windows laptop (`Glory2Glory`) were sending logs.
+- **Status:** Phase 1 Complete ✅
 
 <img width="845" height="681" alt="image" src="https://github.com/user-attachments/assets/7d66b661-b528-41bb-8b4c-2e7d3ef4bc03" />
 
 
-### 📂 Day 11: File Integrity Monitoring (FIM) Real-Time Watch Policy Implementation
-* **Task:** Transition to Phase 2 operations to configure proactive host-system hardening parameters and deploy real-time kernel-level directory tracking watches.
-* **Engineering & Detection Metrics:**
-  * Modified the core XML agent configuration matrices (`ossec.conf`) to inject customized real-time tracking parameters (`realtime="yes"`, `report_changes="yes").
-  * Established an aggressive, dedicated data watch hook on the highly restricted root-level directory container path (`/root/top_secret`).
-  * Executed a malicious file drop simulation generating an un-authorized credential leakage artifact text entry file (`leak.txt`).
-  * Validated successful ingestion metrics inside the central **Global Query Ingestion Deck (Discover)**, isolating the structural threat footprint transmitted by the `ubuntuvictim` endpoint node interface (192.168.56.120).
- * **Status:** Complete ✅
+### 📂Day 11: File Integrity Monitoring (FIM)
+- **Task:** Set up real-time file monitoring on the Ubuntu VM.
+- **Steps:**
+  - Edited `ossec.conf` to watch `/root/top_secret` with `realtime="yes"` and `report_changes="yes"`.
+  - Created a test file, `leak.txt`, to simulate a sensitive file being dropped.
+  - Found the FIM alert in Discover from the Ubuntu agent (192.168.56.120).
+- **Status:** Complete ✅
 
 <img width="1347" height="670" alt="image" src="https://github.com/user-attachments/assets/137063ed-3330-4aa1-85bc-d51f18dfcf5f" />
 
