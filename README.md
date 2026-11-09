@@ -1,7 +1,11 @@
-# SOC-Home-Lab-Wazuh
-### 🚀 Project Status: Building Virtual Network Infrastructure on HP Host
-## 🎯 Project Objective
-The purpose of this deployment is to engineer a functional **Security Operations Center (SOC) environment** using open-source tools. This environment validates defensive endpoint monitoring controls by simulating cyber attacks and establishing centralized logging and analysis. 
+# SOC Home Lab (Wazuh)
+
+### Project Status: Phase 3, Detection Engineering with Sysmon
+
+## Project Objective
+Build a working Security Operations Center (SOC) lab with open-source tools.
+I simulate attacks, collect logs in a central SIEM, and write custom rules
+to detect them.
 
 ▶ **View the complete engineering milestones here:** [Download Full 30-60-90 Day Timeline PDF](soc_homelab_30_60_90_timeline.pdf)
 
@@ -14,21 +18,24 @@ The purpose of this deployment is to engineer a functional **Security Operations
 ---
 
 ## 📈Milestone Logs
-### 🏗️Day 1: Provisioning the Security Brain
-* **Task:** Import and configure the central Wazuh SIEM engine
-* **Status:** Complete ✅
+### 🏗️Day 1: Deploying the Wazuh Server
+- **Task:** Imported the Wazuh OVA into VirtualBox and confirmed the dashboard was reachable.
+- **Status:** Complete ✅
+- **Verification:**
 * **Telemetry Verification:**
 <img width="1009" height="579" alt="image" src="https://github.com/user-attachments/assets/73259352-121e-4c2d-bfe4-f90c330b8276" />
 
-### 🪤Day 2: Setting the Log Trap
-* **Task:** Deploy the attacker node and establish virtual network routing connectivity.
-* **Status:** Complete ✅
+### 🪤Day 2: Deploying the Attacker VM
+- **Task:** Deployed Kali Linux and connected it to the host-only network so it could reach the Wazuh server.
+- **Status:** Complete ✅
+- **Verification:**
 * **Telemetry Verification:**
 <img width="1067" height="753" alt="image" src="https://github.com/user-attachments/assets/b0a6c156-d4e8-44a9-a7e0-79973fef08fe" />
 
-### 🪤Day 3: Simulating the Attack Vector 
-* **Task:** Execute a brute-force attack from Kali Linux and verify SIEM alert generation thresholds.
-* **Status:** Complete ✅
+### 🪤Day 3: First Brute-Force Test
+- **Task:** Ran a brute-force attack from Kali and confirmed Wazuh generated alerts.
+- **Status:** Complete ✅
+- **Verification:**
 * **Telemetry Verification
 <img width="1048" height="532" alt="image" src="https://github.com/user-attachments/assets/ffcb3c7f-dadf-4177-8558-d92927e435fc" />
 
