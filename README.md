@@ -287,3 +287,11 @@ to detect them.
 - **Next:** Narrow rule 100002 and fix rule 100003 on Day 25.
 - **Status:** Complete ✅
 
+<img width="656" height="623" alt="unnamed" src="https://github.com/user-attachments/assets/302e517e-a35d-42b3-8b4c-eda663ca5ef6" />
+
+<img width="658" height="613" alt="unnamed" src="https://github.com/user-attachments/assets/0015daaa-ddc0-4e9f-81db-9fc00cc32385" />
+
+<img width="660" height="613" alt="unnamed" src="https://github.com/user-attachments/assets/7cfd542b-d682-42d7-879c-5386e7d9680f" />
+
+<img width="1317" height="648" alt="unnamed" src="https://github.com/user-attachments/assets/6f6a6448-c735-4ef4-b37e-572d2b902a7a" />
+
