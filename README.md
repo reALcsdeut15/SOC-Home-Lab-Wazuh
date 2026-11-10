@@ -7,7 +7,7 @@ Build a working Security Operations Center (SOC) lab with open-source tools.
 I simulate attacks, collect logs in a central SIEM, and write custom rules
 to detect them.
 
-▶ **View the complete engineering milestones here:** [Download Full 30-60-90 Day Timeline PDF](soc_homelab_30_60_90_timeline.pdf)
+▶ **Project timeline:** [TIMELINE.md](TIMELINE.md) shows every module, what is complete, and what comes next.
 
 ▶ **Concepts and interview prep:** [CONCEPTS.md](CONCEPTS.md) holds my answers to key questions from each module, in my own words.
 
