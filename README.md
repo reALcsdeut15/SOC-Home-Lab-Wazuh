@@ -266,3 +266,24 @@ to detect them.
 
 <img width="1308" height="672" alt="image" src="https://github.com/user-attachments/assets/c72447fa-5b9d-4c52-bc42-6e39e87dd2f6" />
 
+
+### 📂 Day 24: Tracing a Detection Gap
+- **Task:** Found out why rule 100003 caught only 1 of 3 recon commands on Day 23.
+- **Steps:**
+  - Ran `whoami`, `ifconfig /all`, and `net user` from an admin command prompt.
+  - Expanded each alert in Wazuh Discover and compared the process fields.
+- **Findings:**
+
+| Command | New Process | Parent Process | Rule That Fired |
+|---|---|---|---|
+| whoami | whwoami.exe | cmd.exe | 100002 |
+| ipconfig | ipconfig.exe | cmd.exe | 100002 |
+| net user | net.exe | cmd.exe | 100002 | 
+| (automatic) | net1.exe | net.exe | 100003 |
+
+  - Rule 100002 matched `cmd.exe` in the parent process field, so it fired on every program started from a command prompt.
+  - Rule 100002 sits above rule 100003, and Wazuh uses the first matching rule. Rule 100003 only caught net1.exe because its parent is net.exe.
+  - Rule 100002 had fired 70 times, which shows how noisy it was.
+- **Next:** Narrow rule 100002 and fix rule 100003 on Day 25.
+- **Status:** Complete ✅
+
