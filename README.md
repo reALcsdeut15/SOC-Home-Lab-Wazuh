@@ -276,7 +276,7 @@ to detect them.
 
 | Command | New Process | Parent Process | Rule That Fired |
 |---|---|---|---|
-| whoami | whwoami.exe | cmd.exe | 100002 |
+| whoami | whoami.exe | cmd.exe | 100002 |
 | ipconfig | ipconfig.exe | cmd.exe | 100002 |
 | net user | net.exe | cmd.exe | 100002 | 
 | (automatic) | net1.exe | net.exe | 100003 |
