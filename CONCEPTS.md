@@ -21,11 +21,11 @@ My answer: The three main parts are the server, the indexer, and the dashboard. 
 ### Module 2: Deploying the Attacker VM
 **Q: Why did I put the attacker VM on a host-only network instead of a bridged network?**
 
-My answer:
+My answer: I put the attacker VM on a host-only network instead of a bridged network to keep the attacks off my real home network. With bridged networking, Kali would join my home Wi-Fi like any other device, so a scan or brute force could hit my phone, TV, or sister's laptop. Scanning devices that I don't own or have permission to test can also be illegal. In my lab, Wazuh, Ubuntu, and Kali share the host-only network and its address range `192.168.56.0/24`.
 
 **Q: What is the difference between host-only, NAT, and bridged networking?**
 
-My answer:
+My answer: A host-only network is a private network that can only be reached by the host and other VMs on the same network. It has no internet access. With NAT, the VM shares the host's address. It can reach out to the internet through the host, but other devices can't reach it directly unless port forwarding is set up. With bridged networking, the VM joins the home network like any other device and gets its own IP address from the router. Every device on the home network can reach it. In my lab, my Ubuntu VM was on the host-only network with no internet, so I used a VirtualBox shared folder to move the Wazuh agent onto it.
 
 ### Module 3: First Brute-Force Test
 **Q: What is a brute-force attack, and what evidence does it leave in the logs?**
