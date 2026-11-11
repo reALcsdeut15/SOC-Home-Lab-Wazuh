@@ -12,11 +12,11 @@ I use this file to practice for interviews and to explain what I learned.
 ### Module 1: Deploying the Wazuh Server
 **Q: What is a SIEM, and what problem does it solve?**
 
-My answer:
+My answer: A SIEM stands for Security Information and Event Management. It collects logs from many computers and puts them in one place. It checks those logs against rules and raises an alert when something looks suspicious. Without a SIEM, an analyst would have to check each computer's logs one at a time, and attacks could be missed or have a delayed response. In my lab, Wazuh is my SIEM. It collects logs from my Ubuntu VM and my Windows laptop, and it raised level 10 alerts when I ran a brute-force attack from Kali.
 
 **Q: What are the three main parts of Wazuh, and what does each one do?**
 
-My answer:
+My answer: The three main parts are the server, the indexer, and the dashboard. The server receives logs from the agents, checks them against rules, and creates alerts. The indexer stores the alerts so they can be searched quickly. The dashboard is the web page where I search, filter, and review alerts. Agents are a fourth piece. They are installed on each computer being monitored and send logs to the server. In my lab, all three main parts run on one VM from the Wazuh OVA.
 
 ### Module 2: Deploying the Attacker VM
 **Q: Why did I put the attacker VM on a host-only network instead of a bridged network?**
